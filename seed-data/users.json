@@ -1,0 +1,37 @@
+[
+  {
+    "name": "admin",
+    "password": "12345678",
+    "email": "admin@example.com",
+    "account": "admin",
+    "role": 10
+  },
+  {
+    "name": "Jack",
+    "password": "12345678",
+    "email": "test1@example.com",
+    "account": "test1",
+    "role": 20
+  },
+  {
+    "name": "Ben",
+    "password": "12345678",
+    "email": "test2@example.com",
+    "account": "test2",
+    "role": 20
+  },
+  {
+    "name": "Mary",
+    "password": "12345678",
+    "email": "test3@example.com",
+    "account": "test3",
+    "role": 20
+  },
+  {
+    "name": "Zara",
+    "password": "12345678",
+    "email": "test4@example.com",
+    "account": "test4",
+    "role": 20
+  }
+]

@@ -5,6 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose'
 import { AppController } from './app.controller'
 import { AppService } from './app.service'
 import { UserModule } from '../user/user.module'
+import { AdminModule } from '../admin/admin.module'
 import { configuration } from '../../config'
 
 @Module({
@@ -20,7 +21,8 @@ import { configuration } from '../../config'
         uri: config.get<string>('mongodb.url')
       }),
     }),
-    UserModule
+    UserModule, 
+    AdminModule
   ],
   controllers: [AppController],
   providers: [AppService]

@@ -1,13 +1,13 @@
-import { Controller, Get } from "@nestjs/common"
+import { Controller, Get } from '@nestjs/common'
 
-import { AdminService } from "./admin.service"
+import { AdminService } from './admin.service'
 
-@Controller("admin")
+@Controller('admin')
 export class AdminController {
   constructor(private readonly adminService: AdminService) {}
   
   //取得所有tweets貼文
-  @Get()
+  @Get('/tweets')
   getTweets(): any {
     return this.adminService.getTweets()
   }
